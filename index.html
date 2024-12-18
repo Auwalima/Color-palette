@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Color Palette Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Image Color Palette Generator</h1>
+      <div class="upload-container">
+        <div class="upload-button">
+          <input type="file" id="fileInput" accept="image/*" />
+          <label for="fileInput" class="upload-label">Choose an Image</label>
+        </div>
+        <img id="imagePreview" alt="Preview" />
+        <div class="palette-container" id="palette"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
